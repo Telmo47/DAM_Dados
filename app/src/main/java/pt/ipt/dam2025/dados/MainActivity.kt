@@ -63,14 +63,19 @@ class MainActivity : AppCompatActivity() {
 
 
         val textNumber = when (randomNumber) {
-            1 -> "um"
-            2 -> "dois"
-            3 -> "Três"
-            4 -> "R.drawable.dice_4"
-            5 -> R.drawable.dice_5
-            6 -> R.drawable.dice_6
-            else -> R.drawable.empty_dice
+            1 -> R.string.n1
+            2 -> R.string.n2
+            3 -> R.string.n3
+            4 -> R.string.n4
+            5 -> R.string.n5
+            6 -> R.string.n6
+            else -> R.string.n
         }
+
+        //dar o texto a textview
+
+        val txt= getString(textNumber)
+        binding.valordolado.text = " ($txt)"
         }
 
 

@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">Dados</string>
+    <string name="Numn">Número do dado em númerário</string>
+    <string name="Nume">Número do dado por extenso</string>
+    <string name="imagem">Imagem com a face do dado gerado</string>
+
+    <string name="n1">um</string>
+    <string name="n2">dois</string>
+    <string name="n3">três</string>
+    <string name="n4">quatro</string>
+    <string name="n5">cinco</string>
+    <string name="n6">seis</string>
+    <string name="n"></string>
+
 </resources>
